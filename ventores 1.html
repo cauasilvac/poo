@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ventores 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script></script>
+</head>
+<body>
+    <script>
+        var vegetais = ['Repolho', 'Nabo', 'Rabanete', 'Cenoura'];
+document.write(vegetais);
+// ['Repolho', 'Nabo', 'Rabanete', 'Cenoura']
+var pos = 1, n = 2;
+var itensRemovidos = vegetais.splice(pos, n);
+document.write(vegetais);
+// ['Repolho', 'Cenoura'] (o array original é alterado)
+document.write("<br>" + itensRemovidos);
+// ['Nabo', 'Rabanete'],                                  
+      
+    </script>
+</body>
+</html>

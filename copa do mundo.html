@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>copadomundo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+    let ano=prompt("digite um ano");
+    if( ano <1930)
+    alert("não teve copa antes de 1930");
+    else if((ano-1930)%4!=0)
+    alert("não teve copa");
+            else if(ano>1930 || ano<2022){
+                for(var copa=1930;copa<2022;copa+=4){
+                   document.write(copa + "<br>")
+                    if(ano<=copa)
+                    alert("opa,teve copa");
+                    else
+                    alert("tururu,não teve copa");break;
+                }
+            }else
+                alert("não sabemos se haverá copa"); 
+
+
+                
+                 
+                 
+            
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

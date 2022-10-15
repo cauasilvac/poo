@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>vetores</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+    </script>
+</head>
+<script>
+    const frutascitricas = [];//declaração de um vetor
+    let quantidadefrutas = prompt("quantas frutas gostaria de salva")//interage com o usuario perguntado a quantidade de frutas
+    for(var i=0;i<quantidadefrutas;i++){
+        let frutas = prompt("nome");
+        frutascitricas.push(frutas);
+    }
+    for(var i=0; i<quantidadefrutas; i++){
+        document.writeln(frutascitricas[i] + "<br>")
+    }
+</script>
+</body>
+</html>
